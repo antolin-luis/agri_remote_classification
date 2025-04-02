@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ce44917e_b1b0_4f58_b739_93a6c5a96106" id="ce44917e_b1b0_4f58_b739_93a6c5a96106">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>ce44917e_b1b0_4f58_b739_93a6c5a96106</name>
+  <Placemark>
+	<name>ce44917e-b1b0-4f58-b739-93a6c5a96106</name>
+	<description>ALUM</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ce44917e_b1b0_4f58_b739_93a6c5a96106">
+		<SimpleData name="parcela_co">BR20240603293-GO</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">9511536192139</SimpleData>
+		<SimpleData name="situacao_i">2024/06/12 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2024/06/12 00:00:00</SimpleData>
+		<SimpleData name="status">5694</SimpleData>
+		<SimpleData name="registro_m">5219738</SimpleData>
+		<SimpleData name="municipio_">7.26430276559778e-06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-49.22109306,-16.44849333 -49.22133278,-16.44965194 -49.22140944,-16.45002278 -49.22556194,-16.44909139 -49.22471361,-16.44721389 -49.22109306,-16.44849333</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="79c63208_c57d_4587_a1d2_721f75791751" id="79c63208_c57d_4587_a1d2_721f75791751">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>79c63208_c57d_4587_a1d2_721f75791751</name>
+  <Placemark>
+	<name>79c63208-c57d-4587-a1d2-721f75791751</name>
+	<description>FMQ</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#79c63208_c57d_4587_a1d2_721f75791751">
+		<SimpleData name="parcela_co">28027230210535958-SP</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">6340500002724</SimpleData>
+		<SimpleData name="situacao_i">2021/05/11 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2021/05/11 00:00:00</SimpleData>
+		<SimpleData name="status">108757</SimpleData>
+		<SimpleData name="registro_m">3532405</SimpleData>
+		<SimpleData name="municipio_">1.69917052949013e-07</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-46.43930083,-23.17048222 -46.43916639,-23.17049667 -46.43905472,-23.17050833 -46.43888694,-23.17080833 -46.43878333,-23.17099167 -46.43867639,-23.17118222 -46.43885389,-23.17104139 -46.43899306,-23.1709275 -46.43917611,-23.17077889 -46.43926611,-23.17070639 -46.439365,-23.17063056 -46.43960611,-23.17043972 -46.43930083,-23.17048222</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

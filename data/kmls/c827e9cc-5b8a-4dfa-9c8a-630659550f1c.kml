@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="c827e9cc_5b8a_4dfa_9c8a_630659550f1c" id="c827e9cc_5b8a_4dfa_9c8a_630659550f1c">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>c827e9cc_5b8a_4dfa_9c8a_630659550f1c</name>
+  <Placemark>
+	<name>c827e9cc-5b8a-4dfa-9c8a-630659550f1c</name>
+	<description>VZLL</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#c827e9cc_5b8a_4dfa_9c8a_630659550f1c">
+		<SimpleData name="parcela_co">1720225786021-PR</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">7212980041380</SimpleData>
+		<SimpleData name="situacao_i">2022/10/26 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2022/10/26 00:00:00</SimpleData>
+		<SimpleData name="status">3407</SimpleData>
+		<SimpleData name="nome_area">2023/02/27 00:00:00</SimpleData>
+		<SimpleData name="registro_m">4128559</SimpleData>
+		<SimpleData name="municipio_">7.79569901832054e-06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-53.9020397930904,-25.0656373332308 -53.9020046360457,-25.0657555074351 -53.9027065479368,-25.0659531966378 -53.9035474178698,-25.0661954459816 -53.9041816338301,-25.0663790225499 -53.9044512898642,-25.0664582937594 -53.9044585819079,-25.0664146575995 -53.90501083,-25.06309889 -53.9030206996141,-25.0625342584046 -53.9020397930904,-25.0656373332308</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

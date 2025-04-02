@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="87846e83_83a8_47e7_838d_4246e0c5acee" id="87846e83_83a8_47e7_838d_4246e0c5acee">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>87846e83_83a8_47e7_838d_4246e0c5acee</name>
+  <Placemark>
+	<name>87846e83-83a8-47e7-838d-4246e0c5acee</name>
+	<description>BXE</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#87846e83_83a8_47e7_838d_4246e0c5acee">
+		<SimpleData name="parcela_co">11399951-RS</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">8510942698167</SimpleData>
+		<SimpleData name="situacao_i">2021/07/30 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2021/09/08 00:00:00</SimpleData>
+		<SimpleData name="status">6812</SimpleData>
+		<SimpleData name="nome_area">2022/03/11 00:00:00</SimpleData>
+		<SimpleData name="registro_m">4306767</SimpleData>
+		<SimpleData name="municipio_">5.65986315780425e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-51.28850028,-29.97088111 -51.28770139,-29.97170917 -51.28662583,-29.97309611 -51.29357417,-29.97739444 -51.29727306,-29.98145556 -51.30215972,-29.98410806 -51.30433222,-29.98647028 -51.3053875,-29.98587722 -51.3048525,-29.98516889 -51.30458056,-29.98480389 -51.30201056,-29.98169944 -51.28908611,-29.97022722 -51.28850028,-29.97088111</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

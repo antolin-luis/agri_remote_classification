@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="b1e88ac6_112b_4281_b248_4343925ceabf" id="b1e88ac6_112b_4281_b248_4343925ceabf">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>b1e88ac6_112b_4281_b248_4343925ceabf</name>
+  <Placemark>
+	<name>b1e88ac6-112b-4281-b248-4343925ceabf</name>
+	<description>A0E</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#b1e88ac6_112b_4281_b248_4343925ceabf">
+		<SimpleData name="parcela_co">7905142-2-SC</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">8152760157256</SimpleData>
+		<SimpleData name="situacao_i">2023/03/21 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2023/03/21 00:00:00</SimpleData>
+		<SimpleData name="status">8609</SimpleData>
+		<SimpleData name="registro_m">4204459</SimpleData>
+		<SimpleData name="municipio_">4.16376916345273e-06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-52.71345194,-26.51564389 -52.71362972,-26.51575444 -52.71385583,-26.51596361 -52.7140075,-26.51615861 -52.71460444,-26.51716806 -52.71486556,-26.51759861 -52.71491611,-26.51770111 -52.71493639,-26.5177925 -52.71492778,-26.51791306 -52.71480444,-26.51834444 -52.71469417,-26.51850056 -52.71456278,-26.51865111 -52.71534639,-26.51862528 -52.71590111,-26.51853083 -52.71597389,-26.51844389 -52.71579056,-26.51635611 -52.71466944,-26.51557583 -52.71365583,-26.51511833 -52.71345194,-26.51564389</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

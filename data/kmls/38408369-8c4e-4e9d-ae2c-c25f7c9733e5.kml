@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="38408369_8c4e_4e9d_ae2c_c25f7c9733e5" id="38408369_8c4e_4e9d_ae2c_c25f7c9733e5">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>38408369_8c4e_4e9d_ae2c_c25f7c9733e5</name>
+  <Placemark>
+	<name>38408369-8c4e-4e9d-ae2c-c25f7c9733e5</name>
+	<description>AK8</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#38408369_8c4e_4e9d_ae2c_c25f7c9733e5">
+		<SimpleData name="parcela_co">28027230191310545-SP</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">6240630030008</SimpleData>
+		<SimpleData name="situacao_i">2020/01/21 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2020/01/21 00:00:00</SimpleData>
+		<SimpleData name="status">22804</SimpleData>
+		<SimpleData name="registro_m">3512407</SimpleData>
+		<SimpleData name="municipio_">3.51784097179707e-06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-47.43646194,-22.47646778 -47.43629278,-22.47649667 -47.43618667,-22.47651778 -47.43618833,-22.47652611 -47.43624333,-22.47681306 -47.43633667,-22.47731417 -47.43648556,-22.47811278 -47.43713056,-22.47798167 -47.43789694,-22.47783472 -47.43857111,-22.47769806 -47.43966417,-22.47751139 -47.44027083,-22.47737028 -47.44030944,-22.47736139 -47.43800139,-22.47678833 -47.43800611,-22.47677139 -47.43731139,-22.47659417 -47.43730333,-22.476615 -47.43700694,-22.47654167 -47.43665694,-22.47646167 -47.43658278,-22.47645861 -47.43646194,-22.47646778</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="a74fa2c1_c8d5_4678_94ed_74dab4efc989" id="a74fa2c1_c8d5_4678_94ed_74dab4efc989">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>a74fa2c1_c8d5_4678_94ed_74dab4efc989</name>
+  <Placemark>
+	<name>a74fa2c1-c8d5-4678-94ed-74dab4efc989</name>
+	<description>SUAT</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#a74fa2c1_c8d5_4678_94ed_74dab4efc989">
+		<SimpleData name="parcela_co">CFT2302816782 - SC-SC</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">8030300457059</SimpleData>
+		<SimpleData name="situacao_i">2024/07/23 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2024/07/23 00:00:00</SimpleData>
+		<SimpleData name="status">22197</SimpleData>
+		<SimpleData name="registro_m">4217204</SimpleData>
+		<SimpleData name="municipio_">4.1533974042883e-06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-53.48473556,-26.76218667 -53.48459333,-26.76364667 -53.48528028,-26.76380667 -53.48581194,-26.75819944 -53.48565056,-26.75817722 -53.48517,-26.75789083 -53.485055,-26.75785583 -53.48473556,-26.76218667</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

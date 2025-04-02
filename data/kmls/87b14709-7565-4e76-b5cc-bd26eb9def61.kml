@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="87b14709_7565_4e76_b5cc_bd26eb9def61" id="87b14709_7565_4e76_b5cc_bd26eb9def61">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>87b14709_7565_4e76_b5cc_bd26eb9def61</name>
+  <Placemark>
+	<name>87b14709-7565-4e76-b5cc-bd26eb9def61</name>
+	<description>FHXE</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#87b14709_7565_4e76_b5cc_bd26eb9def61">
+		<SimpleData name="parcela_co">1020190071995-GO</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">9350690050297</SimpleData>
+		<SimpleData name="situacao_i">2019/12/05 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2019/12/05 00:00:00</SimpleData>
+		<SimpleData name="status">R.03-183</SimpleData>
+		<SimpleData name="nome_area">2020/03/06 00:00:00</SimpleData>
+		<SimpleData name="registro_m">5208301</SimpleData>
+		<SimpleData name="municipio_">4.08304214403051e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-46.42611472,-13.21885639 -46.42607028,-13.21911111 -46.42600056,-13.21924917 -46.425835,-13.21950778 -46.42578083,-13.21967722 -46.42578139,-13.21978722 -46.426225,-13.22063861 -46.42703056,-13.22185139 -46.42700944,-13.2229675 -46.42707444,-13.22320806 -46.42713139,-13.2233075 -46.42754083,-13.22369778 -46.42766806,-13.22388556 -46.42776694,-13.2241225 -46.42772944,-13.22497139 -46.43068556,-13.22494806 -46.43595778,-13.22235972 -46.43558333,-13.22203333 -46.43531472,-13.22169917 -46.43493,-13.22140611 -46.43316556,-13.22000306 -46.4320925,-13.21974139 -46.43151417,-13.21966278 -46.42992278,-13.21927556 -46.42895167,-13.218725 -46.42828694,-13.21825417 -46.42611472,-13.21885639</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

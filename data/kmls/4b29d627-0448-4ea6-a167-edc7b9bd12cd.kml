@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="4b29d627_0448_4ea6_a167_edc7b9bd12cd" id="4b29d627_0448_4ea6_a167_edc7b9bd12cd">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>4b29d627_0448_4ea6_a167_edc7b9bd12cd</name>
+  <Placemark>
+	<name>4b29d627-0448-4ea6-a167-edc7b9bd12cd</name>
+	<description>APEL</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#4b29d627_0448_4ea6_a167_edc7b9bd12cd">
+		<SimpleData name="parcela_co">1220200040437-MT</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">9500925075391</SimpleData>
+		<SimpleData name="situacao_i">2020/08/03 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2020/08/04 00:00:00</SimpleData>
+		<SimpleData name="status">1596</SimpleData>
+		<SimpleData name="nome_area">2020/09/30 00:00:00</SimpleData>
+		<SimpleData name="registro_m">5106190</SimpleData>
+		<SimpleData name="municipio_">5.99339373523301e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-54.6783072601997,-10.6231911324776 -54.6860613990827,-10.6248758989265 -54.6877450257699,-10.6174742684861 -54.6800669265364,-10.6158061366168 -54.6783072601997,-10.6231911324776</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

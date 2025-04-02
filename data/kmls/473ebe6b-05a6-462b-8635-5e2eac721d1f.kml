@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="473ebe6b_05a6_462b_8635_5e2eac721d1f" id="473ebe6b_05a6_462b_8635_5e2eac721d1f">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>473ebe6b_05a6_462b_8635_5e2eac721d1f</name>
+  <Placemark>
+	<name>473ebe6b-05a6-462b-8635-5e2eac721d1f</name>
+	<description>FTK</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#473ebe6b_05a6_462b_8635_5e2eac721d1f">
+		<SimpleData name="parcela_co">9849042-RS</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">8640302901579</SimpleData>
+		<SimpleData name="situacao_i">2018/09/24 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2018/09/24 00:00:00</SimpleData>
+		<SimpleData name="status">52.445</SimpleData>
+		<SimpleData name="nome_area">2018/12/11 00:00:00</SimpleData>
+		<SimpleData name="registro_m">4310553</SimpleData>
+		<SimpleData name="municipio_">4.33921499949079e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-55.2264625,-28.97043083 -55.22693722,-28.97045667 -55.22692056,-28.97100556 -55.22699111,-28.97210556 -55.22724194,-28.97418222 -55.2302625,-28.97466194 -55.23035444,-28.97468472 -55.23089583,-28.97476056 -55.23119528,-28.97480639 -55.23135389,-28.97483278 -55.23150611,-28.97485833 -55.23148278,-28.97468472 -55.23075139,-28.96924778 -55.23326,-28.97121861 -55.23326972,-28.97122417 -55.23342556,-28.97129333 -55.23429306,-28.96774167 -55.23161139,-28.96718028 -55.2264175,-28.96609583 -55.2264625,-28.97043083</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

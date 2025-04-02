@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="9efd68c4_90fb_4a92_8372_ed88452cd1e6" id="9efd68c4_90fb_4a92_8372_ed88452cd1e6">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>9efd68c4_90fb_4a92_8372_ed88452cd1e6</name>
+  <Placemark>
+	<name>9efd68c4-90fb-4a92-8372-ed88452cd1e6</name>
+	<description>VAOR</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#9efd68c4_90fb_4a92_8372_ed88452cd1e6">
+		<SimpleData name="parcela_co">1020200247327-GO</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">9304310126103</SimpleData>
+		<SimpleData name="situacao_i">2021/06/09 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2021/06/09 00:00:00</SimpleData>
+		<SimpleData name="status">6484; 2855</SimpleData>
+		<SimpleData name="nome_area">2022/03/24 00:00:00</SimpleData>
+		<SimpleData name="registro_m">5216809</SimpleData>
+		<SimpleData name="municipio_">5.93500323476432e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-49.30901083,-16.17080556 -49.3100025,-16.17330694 -49.30986167,-16.17376222 -49.3094175,-16.17514139 -49.30905028,-16.17924778 -49.30892194,-16.18014278 -49.30876722,-16.18027333 -49.30875083,-16.18037528 -49.30873583,-16.18048861 -49.30876444,-16.18072639 -49.30890444,-16.18101028 -49.30922361,-16.18112556 -49.30931083,-16.18116361 -49.30934417,-16.18106444 -49.30959694,-16.18119389 -49.30973361,-16.18104944 -49.31001639,-16.18118417 -49.31008444,-16.1811925 -49.31046639,-16.18106361 -49.31051806,-16.18096611 -49.310485,-16.18093667 -49.31073306,-16.18060472 -49.31109972,-16.18068583 -49.31134417,-16.18083833 -49.3114725,-16.18084556 -49.31187972,-16.18062417 -49.31215306,-16.18055194 -49.31226028,-16.18046639 -49.31247056,-16.1802775 -49.31254167,-16.18026111 -49.31285278,-16.18007306 -49.31331944,-16.18009139 -49.31338806,-16.18012111 -49.31348444,-16.18038472 -49.31367139,-16.18062944 -49.31371778,-16.18071722 -49.31390611,-16.18075583 -49.31413111,-16.18076583 -49.31417917,-16.18076556 -49.31436139,-16.18083639 -49.314675,-16.18042611 -49.31483139,-16.18042722 -49.31497028,-16.18050389 -49.31502167,-16.18065944 -49.31520056,-16.18081111 -49.31540306,-16.18055972 -49.31547389,-16.18032889 -49.31533444,-16.18021444 -49.31533,-16.18004944 -49.31576194,-16.17995917 -49.31599722,-16.17978611 -49.31619083,-16.17959083 -49.31631944,-16.17966972 -49.31659278,-16.1796575 -49.31665667,-16.17954 -49.31678444,-16.17951889 -49.31686167,-16.17935278 -49.31703028,-16.17919778 -49.31720889,-16.17928056 -49.3173325,-16.17919417 -49.31741306,-16.17902333 -49.31744833,-16.17890194 -49.31743833,-16.17874111 -49.31753778,-16.178575 -49.31783944,-16.178535 -49.31788111,-16.17824417 -49.31792889,-16.17813917 -49.31807917,-16.17819472 -49.31817972,-16.17802167 -49.31823083,-16.17802361 -49.31843056,-16.17818306 -49.31818222,-16.17781472 -49.31754417,-16.17716056 -49.31704833,-16.17666528 -49.31650833,-16.17612167 -49.31593028,-16.17554167 -49.31538556,-16.17499389 -49.31332778,-16.17292222 -49.31262056,-16.17221111 -49.31223944,-16.17183 -49.31178556,-16.17137361 -49.31123028,-16.17081722 -49.30957139,-16.17057944 -49.30901083,-16.17080556</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

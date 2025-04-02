@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="60569ccd_3fcb_4be3_bb27_e0d2b47418c3" id="60569ccd_3fcb_4be3_bb27_e0d2b47418c3">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>60569ccd_3fcb_4be3_bb27_e0d2b47418c3</name>
+  <Placemark>
+	<name>60569ccd-3fcb-4be3-bb27-e0d2b47418c3</name>
+	<description>AZUZ</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#60569ccd_3fcb_4be3_bb27_e0d2b47418c3">
+		<SimpleData name="parcela_co">CFT2302543043-RS</SimpleData>
+		<SimpleData name="rt">TITULADA_NAO_REGISTRADA</SimpleData>
+		<SimpleData name="art">8511400068740</SimpleData>
+		<SimpleData name="situacao_i">2023/03/29 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2023/03/29 00:00:00</SimpleData>
+		<SimpleData name="registro_m">4300877</SimpleData>
+		<SimpleData name="municipio_">1.13310198351806e-06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-50.9226021692677,-29.6055134073627 -50.92263028,-29.6068325 -50.92354778,-29.60675556 -50.92339167,-29.60543611 -50.9226021692677,-29.6055134073627</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

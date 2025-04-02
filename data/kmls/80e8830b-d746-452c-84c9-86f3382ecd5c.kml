@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="80e8830b_d746_452c_84c9_86f3382ecd5c" id="80e8830b_d746_452c_84c9_86f3382ecd5c">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>80e8830b_d746_452c_84c9_86f3382ecd5c</name>
+  <Placemark>
+	<name>80e8830b-d746-452c-84c9-86f3382ecd5c</name>
+	<description>WYQP</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#80e8830b_d746_452c_84c9_86f3382ecd5c">
+		<SimpleData name="parcela_co">CFT2504274490-GO</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">9341430146305</SimpleData>
+		<SimpleData name="situacao_i">2025/03/06 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2025/03/06 00:00:00</SimpleData>
+		<SimpleData name="status">3992</SimpleData>
+		<SimpleData name="registro_m">5217104</SimpleData>
+		<SimpleData name="municipio_">5.31048201569353e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-49.20844417,-17.14954611 -49.20731861,-17.15638 -49.2073025,-17.15663861 -49.20728583,-17.15670056 -49.20932861,-17.15708583 -49.21087833,-17.15738583 -49.21156111,-17.15833139 -49.21270444,-17.15993222 -49.21281472,-17.16004806 -49.21308583,-17.16042417 -49.21474833,-17.15314167 -49.21487694,-17.15255 -49.21503722,-17.15140722 -49.2150725,-17.15058944 -49.21507583,-17.15010667 -49.21507,-17.14977528 -49.214215,-17.15030333 -49.21370611,-17.15038889 -49.21364278,-17.15051611 -49.21276889,-17.15033 -49.2084475,-17.14953667 -49.20844417,-17.14954611</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

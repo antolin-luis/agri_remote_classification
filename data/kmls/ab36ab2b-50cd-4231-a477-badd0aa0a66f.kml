@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ab36ab2b_50cd_4231_a477_badd0aa0a66f" id="ab36ab2b_50cd_4231_a477_badd0aa0a66f">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>ab36ab2b_50cd_4231_a477_badd0aa0a66f</name>
+  <Placemark>
+	<name>ab36ab2b-50cd-4231-a477-badd0aa0a66f</name>
+	<description>DR8</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ab36ab2b_50cd_4231_a477_badd0aa0a66f">
+		<SimpleData name="parcela_co">8632418-RS</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">8510510081762</SimpleData>
+		<SimpleData name="situacao_i">2016/10/13 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2016/10/13 00:00:00</SimpleData>
+		<SimpleData name="status">16.721</SimpleData>
+		<SimpleData name="registro_m">4313375</SimpleData>
+		<SimpleData name="municipio_">7.81949244861124e-06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-51.327748426331,-29.7693449911663 -51.3277694101966,-29.7694991738736 -51.3280064287721,-29.7703968296579 -51.3281353842282,-29.7706700529821 -51.3283343188866,-29.7709266772417 -51.3285606096851,-29.771197221748 -51.3286851487312,-29.7714477128445 -51.3288348816764,-29.7720319702759 -51.3288473610248,-29.7721470962956 -51.3288203794581,-29.7723109643479 -51.3287514395803,-29.772455804017 -51.3284425658386,-29.7728738803047 -51.3283480359315,-29.7729437868323 -51.3282322979928,-29.7729181728074 -51.3280696066886,-29.7728644273891 -51.3272327688081,-29.7726578460743 -51.3268962453668,-29.7725912626574 -51.3267396881705,-29.7725784732393 -51.3265933235128,-29.7725825349319 -51.3264766760618,-29.7725951869636 -51.3259426312511,-29.7726436138574 -51.3258140528268,-29.7726456453877 -51.3262140935093,-29.7729679293285 -51.326319922761,-29.7730324666597 -51.3264549509485,-29.7730732867375 -51.32676458745,-29.7731105166974 -51.32787038131,-29.7732500116038 -51.3279694305053,-29.7732969659641 -51.3281168830856,-29.7734359438472 -51.328192561723,-29.7734854829723 -51.328283983704,-29.7735091719191 -51.328590014486,-29.7735503774743 -51.3290091947766,-29.7735528550517 -51.3295242036445,-29.7735977800885 -51.3297822541032,-29.7735816141579 -51.3297159231579,-29.7732595023317 -51.3297973983507,-29.7732467546557 -51.330285635799,-29.7755685309101 -51.3297367357052,-29.7769916740266 -51.3300311268856,-29.7770764049157 -51.3301216042675,-29.7768425259918 -51.3305998348681,-29.7756062819256 -51.3302291472367,-29.7738013370097 -51.3303315061851,-29.7737845659263 -51.3301455950393,-29.7728339920051 -51.3297354214723,-29.7728642557488 -51.329594175612,-29.7725676903895 -51.3302021297118,-29.7708315983851 -51.3285119274373,-29.7699733926292 -51.3285742960946,-29.7691467418969 -51.3280042064643,-29.7688892338628 -51.327748426331,-29.7693449911663</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

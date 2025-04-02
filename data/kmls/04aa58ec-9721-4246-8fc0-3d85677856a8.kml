@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="04aa58ec_9721_4246_8fc0_3d85677856a8" id="04aa58ec_9721_4246_8fc0_3d85677856a8">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>04aa58ec_9721_4246_8fc0_3d85677856a8</name>
+  <Placemark>
+	<name>04aa58ec-9721-4246-8fc0-3d85677856a8</name>
+	<description>WHTT</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#04aa58ec_9721_4246_8fc0_3d85677856a8">
+		<SimpleData name="parcela_co">BR20210996886-GO</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">9270230033102</SimpleData>
+		<SimpleData name="situacao_i">2021/02/13 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2021/02/15 00:00:00</SimpleData>
+		<SimpleData name="status">5.041 ? LOTE 40</SimpleData>
+		<SimpleData name="registro_m">5205307</SimpleData>
+		<SimpleData name="municipio_">3.69752173425285e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-47.731115,-13.67263639 -47.73111611,-13.67323444 -47.73098083,-13.6737175 -47.73090306,-13.673805 -47.73075556,-13.6739175 -47.73013806,-13.67420389 -47.73004417,-13.67426611 -47.72990889,-13.67462778 -47.72988333,-13.67544667 -47.72986056,-13.67561944 -47.72952778,-13.67636889 -47.72940056,-13.67704028 -47.72907472,-13.67739917 -47.72906333,-13.67745889 -47.729635,-13.67862944 -47.73627806,-13.67616222 -47.7356625,-13.6734075 -47.73461806,-13.66869667 -47.731115,-13.67263639</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

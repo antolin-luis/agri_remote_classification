@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="3712a93f_2554_45be_8755_e947132aec6b" id="3712a93f_2554_45be_8755_e947132aec6b">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>3712a93f_2554_45be_8755_e947132aec6b</name>
+  <Placemark>
+	<name>3712a93f-2554-45be-8755-e947132aec6b</name>
+	<description>XAFW</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#3712a93f_2554_45be_8755_e947132aec6b">
+		<SimpleData name="parcela_co">CFT2403798181-SC</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">8151440011710</SimpleData>
+		<SimpleData name="situacao_i">2024/09/02 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2024/09/02 00:00:00</SimpleData>
+		<SimpleData name="status">58650</SimpleData>
+		<SimpleData name="nome_area">2025/02/20 00:00:00</SimpleData>
+		<SimpleData name="registro_m">4206405</SimpleData>
+		<SimpleData name="municipio_">8.82184145055209e-07</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-53.53994833,-26.62603556 -53.53973111,-26.62617389 -53.53959639,-26.62622833 -53.53945611,-26.62628417 -53.539235,-26.62628361 -53.53922889,-26.62635167 -53.53913333,-26.62744083 -53.53919556,-26.62742944 -53.53929944,-26.62741472 -53.53940444,-26.62740028 -53.53950806,-26.62738806 -53.53960722,-26.62737278 -53.53970611,-26.62735083 -53.53980444,-26.62732667 -53.53988861,-26.62730222 -53.53988917,-26.62729333 -53.53999917,-26.62605028 -53.54000861,-26.62594389 -53.53994833,-26.62603556</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

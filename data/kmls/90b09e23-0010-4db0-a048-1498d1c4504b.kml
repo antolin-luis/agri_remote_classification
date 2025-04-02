@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="90b09e23_0010_4db0_a048_1498d1c4504b" id="90b09e23_0010_4db0_a048_1498d1c4504b">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>90b09e23_0010_4db0_a048_1498d1c4504b</name>
+  <Placemark>
+	<name>90b09e23-0010-4db0-a048-1498d1c4504b</name>
+	<description>FTK</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#90b09e23_0010_4db0_a048_1498d1c4504b">
+		<SimpleData name="parcela_co">BR20220801338-RS</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">9999549823262</SimpleData>
+		<SimpleData name="situacao_i">2022/03/12 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2022/03/12 00:00:00</SimpleData>
+		<SimpleData name="status">55.668</SimpleData>
+		<SimpleData name="nome_area">2022/05/05 00:00:00</SimpleData>
+		<SimpleData name="registro_m">4304655</SimpleData>
+		<SimpleData name="municipio_">7.0391356373311e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-54.44544,-29.00953472 -54.438095,-29.01627444 -54.43509306,-29.01598833 -54.43507,-29.01684111 -54.43502361,-29.02018472 -54.44018944,-29.02049972 -54.44080028,-29.02053722 -54.44129889,-29.02056583 -54.44186667,-29.02052833 -54.44215778,-29.02068583 -54.44237528,-29.02070889 -54.4426025,-29.02090583 -54.44304306,-29.02068694 -54.44299472,-29.02000944 -54.44302167,-29.01975972 -54.44362083,-29.01846167 -54.44407278,-29.01782278 -54.44437333,-29.01716083 -54.44446528,-29.01632917 -54.444675,-29.01598806 -54.445455,-29.01497778 -54.44585306,-29.01481639 -54.44608806,-29.01479278 -54.44647694,-29.01463278 -54.44687167,-29.01425528 -54.44723472,-29.01382889 -54.44703,-29.01257361 -54.44711139,-29.01234083 -54.44758361,-29.01080694 -54.44756833,-29.01078528 -54.44845111,-29.01038472 -54.44880472,-29.01062861 -54.4494775,-29.0104725 -54.44550167,-29.00947861 -54.44544,-29.00953472</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

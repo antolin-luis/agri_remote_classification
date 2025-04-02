@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="5c04e684_14b2_44b9_a406_84f81c42dba3" id="5c04e684_14b2_44b9_a406_84f81c42dba3">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>5c04e684_14b2_44b9_a406_84f81c42dba3</name>
+  <Placemark>
+	<name>5c04e684-14b2-44b9-a406-84f81c42dba3</name>
+	<description>SUAT</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#5c04e684_14b2_44b9_a406_84f81c42dba3">
+		<SimpleData name="parcela_co">CFT2302816782-SC</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">8153060053553</SimpleData>
+		<SimpleData name="situacao_i">2024/07/20 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2024/07/20 00:00:00</SimpleData>
+		<SimpleData name="status">52100</SimpleData>
+		<SimpleData name="registro_m">4217204</SimpleData>
+		<SimpleData name="municipio_">6.00278348500487e-06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-53.52541528,-26.66923917 -53.52518333,-26.66928111 -53.52491028,-26.66938472 -53.52461139,-26.669435 -53.52412861,-26.66955028 -53.52335889,-26.67041472 -53.52564222,-26.67197861 -53.5273625,-26.67001611 -53.52733333,-26.66996111 -53.5273125,-26.66994111 -53.52723972,-26.66991528 -53.52688722,-26.66990806 -53.52670806,-26.66988694 -53.52648472,-26.66975639 -53.52627722,-26.66952194 -53.52598167,-26.66932194 -53.52582722,-26.66925806 -53.52565472,-26.66922444 -53.52541528,-26.66923917</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

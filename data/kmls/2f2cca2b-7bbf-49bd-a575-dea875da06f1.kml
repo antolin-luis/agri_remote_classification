@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="2f2cca2b_7bbf_49bd_a575_dea875da06f1" id="2f2cca2b_7bbf_49bd_a575_dea875da06f1">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>2f2cca2b_7bbf_49bd_a575_dea875da06f1</name>
+  <Placemark>
+	<name>2f2cca2b-7bbf-49bd-a575-dea875da06f1</name>
+	<description>DARJ</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#2f2cca2b_7bbf_49bd_a575_dea875da06f1">
+		<SimpleData name="parcela_co">1220220057003-MT</SimpleData>
+		<SimpleData name="rt">NAO_TITULADA</SimpleData>
+		<SimpleData name="art">9511537519018</SimpleData>
+		<SimpleData name="situacao_i">2022/06/15 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2022/06/15 00:00:00</SimpleData>
+		<SimpleData name="status">5935</SimpleData>
+		<SimpleData name="nome_area">2024/06/19 00:00:00</SimpleData>
+		<SimpleData name="registro_m">5106299</SimpleData>
+		<SimpleData name="municipio_">3.30193724635346e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-56.6283066078762,-9.90502883146544 -56.6277831231202,-9.90510413472267 -56.6274608382547,-9.90503847657062 -56.6274433396283,-9.90534868160941 -56.627601968163,-9.90566957350527 -56.6279954422567,-9.90618590462059 -56.6284925202258,-9.90639547190521 -56.6518456682151,-9.90642094265272 -56.6518010085012,-9.90595365920069 -56.651737924253,-9.90522578553144 -56.6517336509235,-9.90503964596305 -56.6283066078762,-9.90502883146544</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="10b9cefb_4123_4825_9988_e16723103b1c" id="10b9cefb_4123_4825_9988_e16723103b1c">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>10b9cefb_4123_4825_9988_e16723103b1c</name>
+  <Placemark>
+	<name>10b9cefb-4123-4825-9988-e16723103b1c</name>
+	<description>SPUH</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#10b9cefb_4123_4825_9988_e16723103b1c">
+		<SimpleData name="parcela_co">BR20221608244-SP</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">6160100083115</SimpleData>
+		<SimpleData name="situacao_i">2022/02/01 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2022/02/01 00:00:00</SimpleData>
+		<SimpleData name="status">11585</SimpleData>
+		<SimpleData name="registro_m">3501103</SimpleData>
+		<SimpleData name="municipio_">1.87571912886226e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-50.20348944,-21.60210917 -50.20316222,-21.60235389 -50.2025,-21.602855 -50.20057111,-21.60431056 -50.19986278,-21.60485056 -50.19669722,-21.60724444 -50.19625611,-21.60757139 -50.19399083,-21.60929139 -50.19389972,-21.60935556 -50.19466972,-21.61025472 -50.20653472,-21.60161389 -50.20647139,-21.60158778 -50.20623833,-21.60152417 -50.20596528,-21.6013525 -50.20592333,-21.60125917 -50.20572056,-21.60119528 -50.20539306,-21.60101972 -50.20509361,-21.60095278 -50.20504389,-21.60093667 -50.20348944,-21.60210917</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

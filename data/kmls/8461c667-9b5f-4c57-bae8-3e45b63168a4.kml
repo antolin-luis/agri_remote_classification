@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="8461c667_9b5f_4c57_bae8_3e45b63168a4" id="8461c667_9b5f_4c57_bae8_3e45b63168a4">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>8461c667_9b5f_4c57_bae8_3e45b63168a4</name>
+  <Placemark>
+	<name>8461c667-9b5f-4c57-bae8-3e45b63168a4</name>
+	<description>FJTE</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#8461c667_9b5f_4c57_bae8_3e45b63168a4">
+		<SimpleData name="parcela_co">BR20211361550-DF</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">9410180392765</SimpleData>
+		<SimpleData name="situacao_i">2021/09/21 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2021/09/21 00:00:00</SimpleData>
+		<SimpleData name="status">11394</SimpleData>
+		<SimpleData name="registro_m">5300108</SimpleData>
+		<SimpleData name="municipio_">2.83546229076606e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-47.3781425088331,-15.8914648728176 -47.3781488843989,-15.8914657435793 -47.3781474728598,-15.8914592517825 -47.3781425088331,-15.8914648728176</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-47.37737639,-15.89132111 -47.37710333,-15.89126194 -47.37687,-15.89126722 -47.3768174843932,-15.8912839036905 -47.3774756755156,-15.8913737980874 -47.37737639,-15.89132111</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-47.37639972,-15.89154778 -47.37629,-15.89174722 -47.3762998766495,-15.8918177885484 -47.3764096730459,-15.8915401593487 -47.37639972,-15.89154778</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-47.37595528,-15.89263472 -47.37594944,-15.89272611 -47.3759901468664,-15.8927403097477 -47.376004008209,-15.8926160570751 -47.37595528,-15.89263472</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-47.37618917,-15.89562389 -47.37642667,-15.89579667 -47.37666722,-15.89588306 -47.376761957263,-15.8958954173871 -47.3759506400053,-15.8953083829742 -47.37618917,-15.89562389</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-47.3773321974025,-15.8963623817851 -47.3773885359642,-15.8963487828942 -47.3773662689243,-15.896332671418 -47.3773321974025,-15.8963623817851</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-47.37472889,-15.89710056 -47.37471861,-15.89717083 -47.37475472,-15.89727444 -47.37481361,-15.89739056 -47.37491361,-15.89750139 -47.374941248213,-15.8975010473034 -47.3748260095605,-15.8971092437349 -47.37472889,-15.89710056</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

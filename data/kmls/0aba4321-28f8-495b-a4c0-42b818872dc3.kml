@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="0aba4321_28f8_495b_a4c0_42b818872dc3" id="0aba4321_28f8_495b_a4c0_42b818872dc3">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>0aba4321_28f8_495b_a4c0_42b818872dc3</name>
+  <Placemark>
+	<name>0aba4321-28f8-495b-a4c0-42b818872dc3</name>
+	<description>SUXG</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#0aba4321_28f8_495b_a4c0_42b818872dc3">
+		<SimpleData name="parcela_co">BR20211020906-GO</SimpleData>
+		<SimpleData name="rt">NAO_TITULADA</SimpleData>
+		<SimpleData name="art">0000513177992</SimpleData>
+		<SimpleData name="situacao_i">2021/04/02 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2021/04/02 00:00:00</SimpleData>
+		<SimpleData name="registro_m">5205471</SimpleData>
+		<SimpleData name="municipio_">2.37699572404834e-06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-52.74620389,-18.52200333 -52.74498278,-18.52320194 -52.74535306,-18.52369528 -52.74579222,-18.52429667 -52.745625,-18.52372528 -52.74616417,-18.52329083 -52.74657722,-18.52255778 -52.74671667,-18.52261944 -52.74711306,-18.52249333 -52.74683861,-18.52216111 -52.74702917,-18.522 -52.7471825,-18.52173667 -52.74707556,-18.52146167 -52.7468425,-18.52078667 -52.74620389,-18.52200333</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

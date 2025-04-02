@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="08c28279_9653_45f4_a37a_c28ab5bb7f62" id="08c28279_9653_45f4_a37a_c28ab5bb7f62">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>08c28279_9653_45f4_a37a_c28ab5bb7f62</name>
+  <Placemark>
+	<name>08c28279-9653-45f4-a37a-c28ab5bb7f62</name>
+	<description>THRM</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#08c28279_9653_45f4_a37a_c28ab5bb7f62">
+		<SimpleData name="parcela_co">1720234734187-PR</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">7010250185546</SimpleData>
+		<SimpleData name="situacao_i">2024/01/04 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2024/01/04 00:00:00</SimpleData>
+		<SimpleData name="status">50424</SimpleData>
+		<SimpleData name="registro_m">4101804</SimpleData>
+		<SimpleData name="municipio_">9.24951856851947e-06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-49.5332365063567,-25.5558925366533 -49.5352872086729,-25.5578833697623 -49.5360644282093,-25.5572468678693 -49.5365451807578,-25.5577125824772 -49.536996028067,-25.557379331276 -49.5376155115041,-25.5568794712241 -49.5379416500357,-25.5565864119998 -49.5374131844339,-25.5560663247132 -49.5369066111031,-25.55557155382 -49.5362979566066,-25.5549512569184 -49.5358799711766,-25.5545221934338 -49.5354677778657,-25.5540754005361 -49.5332365063567,-25.5558925366533</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

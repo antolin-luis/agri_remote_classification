@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ee3effc6_0116_4065_ab6d_4460ddd2e28b" id="ee3effc6_0116_4065_ab6d_4460ddd2e28b">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>ee3effc6_0116_4065_ab6d_4460ddd2e28b</name>
+  <Placemark>
+	<name>ee3effc6-0116-4065-ab6d-4460ddd2e28b</name>
+	<description>ZBOM</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ee3effc6_0116_4065_ab6d_4460ddd2e28b">
+		<SimpleData name="parcela_co">9659945-8-SC</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">8153060285250</SimpleData>
+		<SimpleData name="situacao_i">2025/01/23 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2025/01/23 00:00:00</SimpleData>
+		<SimpleData name="status">51636</SimpleData>
+		<SimpleData name="registro_m">4202081</SimpleData>
+		<SimpleData name="municipio_">3.69236600589767e-06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-53.69805472,-26.78956056 -53.69876111,-26.7905825 -53.6994175,-26.78982056 -53.70122556,-26.78772139 -53.70091778,-26.78763139 -53.70052056,-26.78752333 -53.70015444,-26.78745361 -53.69805472,-26.78956056</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="76f2a8ce_0601_4aa3_99a9_1f828e02e93f" id="76f2a8ce_0601_4aa3_99a9_1f828e02e93f">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>76f2a8ce_0601_4aa3_99a9_1f828e02e93f</name>
+  <Placemark>
+	<name>76f2a8ce-0601-4aa3-99a9-1f828e02e93f</name>
+	<description>BESQ</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#76f2a8ce_0601_4aa3_99a9_1f828e02e93f">
+		<SimpleData name="parcela_co">7036842-4-SC</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">8160190044307</SimpleData>
+		<SimpleData name="situacao_i">2020/12/07 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2020/12/07 00:00:00</SimpleData>
+		<SimpleData name="status">12237</SimpleData>
+		<SimpleData name="nome_area">2021/10/01 00:00:00</SimpleData>
+		<SimpleData name="registro_m">4203303</SimpleData>
+		<SimpleData name="municipio_">5.97739710669981e-06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-49.2236265857947,-26.101754313187 -49.2224059748682,-26.1022149054849 -49.2221004987749,-26.1023562940414 -49.2220916380558,-26.1023604274954 -49.2221023622377,-26.102411562567 -49.2220443322409,-26.1024870353033 -49.2219792013665,-26.1026353590083 -49.2217799059847,-26.1027831113153 -49.2214636345032,-26.1030233017239 -49.2214129337494,-26.1030966980898 -49.2213923653717,-26.1031411282456 -49.2214077137376,-26.1031971950039 -49.2214747225705,-26.1032750223134 -49.2215434448234,-26.1032594407874 -49.2216331024414,-26.1031685610613 -49.2216725181572,-26.1031868305048 -49.2216942814014,-26.1032286233524 -49.2216625343919,-26.1034171678976 -49.2216117155852,-26.1034851466435 -49.2215138177824,-26.1037307385553 -49.2215905314854,-26.1038081439099 -49.2215458297992,-26.1038881137761 -49.2214731069582,-26.1039632244456 -49.221444105588,-26.1041354638192 -49.2214183198236,-26.1043198390898 -49.2214279683828,-26.1043231175816 -49.222769638523,-26.1047778352878 -49.2235597037682,-26.1051277115039 -49.2237213962665,-26.1043787432207 -49.2237780105222,-26.1040529321914 -49.2240668590394,-26.10173012792 -49.2236265857947,-26.101754313187</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

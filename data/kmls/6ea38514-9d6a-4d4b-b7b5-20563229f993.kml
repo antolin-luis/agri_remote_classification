@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="6ea38514_9d6a_4d4b_b7b5_20563229f993" id="6ea38514_9d6a_4d4b_b7b5_20563229f993">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>6ea38514_9d6a_4d4b_b7b5_20563229f993</name>
+  <Placemark>
+	<name>6ea38514-9d6a-4d4b-b7b5-20563229f993</name>
+	<description>BSA</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#6ea38514_9d6a_4d4b_b7b5_20563229f993">
+		<SimpleData name="parcela_co">3113946-MT</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">9012700103596</SimpleData>
+		<SimpleData name="situacao_i">2019/02/22 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2019/02/22 00:00:00</SimpleData>
+		<SimpleData name="status">69605</SimpleData>
+		<SimpleData name="nome_area">2024/01/31 00:00:00</SimpleData>
+		<SimpleData name="registro_m">5107925</SimpleData>
+		<SimpleData name="municipio_">3.4774778000972e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-55.91610528,-12.28112444 -55.91560139,-12.2816975 -55.91528306,-12.28201167 -55.9149975,-12.28226444 -55.91471972,-12.28248694 -55.91446333,-12.28267333 -55.91414639,-12.28288444 -55.92361222,-12.28339611 -55.92080778,-12.27558556 -55.91610528,-12.28112444</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="91d3615c_4eb0_4212_8945_631543a93614" id="91d3615c_4eb0_4212_8945_631543a93614">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>91d3615c_4eb0_4212_8945_631543a93614</name>
+  <Placemark>
+	<name>91d3615c-4eb0-4212-8945-631543a93614</name>
+	<description>AMR</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#91d3615c_4eb0_4212_8945_631543a93614">
+		<SimpleData name="parcela_co">102014108349-GO</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">9290420054794</SimpleData>
+		<SimpleData name="situacao_i">2014/06/24 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2014/06/24 00:00:00</SimpleData>
+		<SimpleData name="status">7296</SimpleData>
+		<SimpleData name="nome_area">2018/02/20 00:00:00</SimpleData>
+		<SimpleData name="registro_m">5211008</SimpleData>
+		<SimpleData name="municipio_">5.94901818799449e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-50.8387782842901,-15.5202645852236 -50.8512953965604,-15.517160083519 -50.852960841713,-15.5155702911019 -50.839731764361,-15.5125983340988 -50.8387782842901,-15.5202645852236</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

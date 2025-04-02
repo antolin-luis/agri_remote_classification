@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="6559c80c_4083_4210_afda_4529cf9435d8" id="6559c80c_4083_4210_afda_4529cf9435d8">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>6559c80c_4083_4210_afda_4529cf9435d8</name>
+  <Placemark>
+	<name>6559c80c-4083-4210-afda-4529cf9435d8</name>
+	<description>BL2</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#6559c80c_4083_4210_afda_4529cf9435d8">
+		<SimpleData name="parcela_co">9813184-RS</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">8650520006552</SimpleData>
+		<SimpleData name="situacao_i">2019/08/02 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2019/08/02 00:00:00</SimpleData>
+		<SimpleData name="status">53.283</SimpleData>
+		<SimpleData name="nome_area">2019/11/29 00:00:00</SimpleData>
+		<SimpleData name="registro_m">4317400</SimpleData>
+		<SimpleData name="municipio_">3.09912387156147e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-54.9155575,-28.88319306 -54.91620972,-28.88572306 -54.91634,-28.88898028 -54.9164075,-28.89068222 -54.91664028,-28.896535 -54.91675389,-28.89653972 -54.92002167,-28.88796056 -54.918435,-28.88392694 -54.91540833,-28.88241861 -54.9155575,-28.88319306</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

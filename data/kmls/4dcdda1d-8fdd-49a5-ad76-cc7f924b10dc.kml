@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="4dcdda1d_8fdd_49a5_ad76_cc7f924b10dc" id="4dcdda1d_8fdd_49a5_ad76_cc7f924b10dc">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>4dcdda1d_8fdd_49a5_ad76_cc7f924b10dc</name>
+  <Placemark>
+	<name>4dcdda1d-8fdd-49a5-ad76-cc7f924b10dc</name>
+	<description>FHAC</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#4dcdda1d_8fdd_49a5_ad76_cc7f924b10dc">
+		<SimpleData name="parcela_co">1020190126133-GO</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">9320600002560</SimpleData>
+		<SimpleData name="situacao_i">2019/11/18 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2019/12/05 00:00:00</SimpleData>
+		<SimpleData name="status">38.708</SimpleData>
+		<SimpleData name="registro_m">5213103</SimpleData>
+		<SimpleData name="municipio_">2.21409821161947e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-52.52703111,-17.55886222 -52.52704389,-17.55894889 -52.52687722,-17.55904028 -52.52621306,-17.55987472 -52.52619333,-17.55993972 -52.52606194,-17.56028917 -52.52578444,-17.56053167 -52.52566,-17.56084417 -52.52537917,-17.56095667 -52.5250775,-17.56131306 -52.52482528,-17.56173361 -52.52449111,-17.56187278 -52.52427639,-17.56217806 -52.52396639,-17.56272972 -52.52389917,-17.56283556 -52.52373917,-17.56300556 -52.52335111,-17.56346694 -52.52310389,-17.563815 -52.52296667,-17.56392472 -52.52272889,-17.56456972 -52.523245,-17.56428556 -52.52368,-17.56404639 -52.52395111,-17.56394972 -52.5242125,-17.56385667 -52.52457333,-17.56382306 -52.52524167,-17.56382639 -52.52568222,-17.5638125 -52.52594361,-17.56358611 -52.52643417,-17.56341667 -52.52705694,-17.56306583 -52.52730083,-17.56299833 -52.52754028,-17.56293833 -52.52772333,-17.56293306 -52.52808,-17.56281444 -52.52822778,-17.56277417 -52.52847806,-17.56273917 -52.52864444,-17.56262889 -52.5288725,-17.56258194 -52.52920139,-17.56232667 -52.52989444,-17.56196944 -52.53016361,-17.56245361 -52.53041111,-17.56306111 -52.53056611,-17.56360694 -52.53067778,-17.56430139 -52.53070056,-17.56478833 -52.53067,-17.56527194 -52.52986806,-17.56527722 -52.52986472,-17.56532694 -52.52982889,-17.56555917 -52.52977889,-17.5658025 -52.52971944,-17.56604 -52.52961222,-17.56638111 -52.52946861,-17.56672694 -52.529315,-17.56703639 -52.52909944,-17.5670775 -52.52804472,-17.56949778 -52.52815472,-17.56960028 -52.52860806,-17.56929889 -52.52914083,-17.56882778 -52.52945306,-17.56849417 -52.52972167,-17.56817139 -52.53001361,-17.56775139 -52.5303625,-17.56710583 -52.53057667,-17.56654444 -52.53070694,-17.56608583 -52.53082,-17.56545083 -52.53086056,-17.56478917 -52.5308375,-17.56428611 -52.53072306,-17.56357472 -52.53056306,-17.56301278 -52.53030917,-17.56238917 -52.5299475,-17.56173861 -52.52961528,-17.56129361 -52.52937444,-17.56098694 -52.52870222,-17.56018917 -52.52843611,-17.55983333 -52.52807222,-17.55929667 -52.52774333,-17.55887167 -52.52768583,-17.55879556 -52.52760444,-17.55868778 -52.52703111,-17.55886222</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

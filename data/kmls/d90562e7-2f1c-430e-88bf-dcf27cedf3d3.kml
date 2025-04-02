@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="d90562e7_2f1c_430e_88bf_dcf27cedf3d3" id="d90562e7_2f1c_430e_88bf_dcf27cedf3d3">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>d90562e7_2f1c_430e_88bf_dcf27cedf3d3</name>
+  <Placemark>
+	<name>d90562e7-2f1c-430e-88bf-dcf27cedf3d3</name>
+	<description>EAW</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#d90562e7_2f1c_430e_88bf_dcf27cedf3d3">
+		<SimpleData name="parcela_co">12176664-RS</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">9510808526000</SimpleData>
+		<SimpleData name="situacao_i">2022/11/06 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2022/11/06 00:00:00</SimpleData>
+		<SimpleData name="status">31116</SimpleData>
+		<SimpleData name="nome_area">2024/08/20 00:00:00</SimpleData>
+		<SimpleData name="registro_m">4320107</SimpleData>
+		<SimpleData name="municipio_">6.65904063874972e-06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-52.78181333,-27.97788722 -52.78075,-27.97864361 -52.78058556,-27.97876056 -52.78059111,-27.97877472 -52.7806175,-27.97882333 -52.78061694,-27.97895722 -52.78054722,-27.97916694 -52.78061306,-27.97918778 -52.78100861,-27.97902778 -52.78107611,-27.97943361 -52.781165,-27.97942917 -52.78228806,-27.97932722 -52.78289306,-27.97919361 -52.7834325,-27.979035 -52.7837825,-27.97893722 -52.78416278,-27.97887194 -52.78443583,-27.97885111 -52.78478278,-27.9788025 -52.78505139,-27.97874194 -52.78530139,-27.97865667 -52.78551667,-27.97851694 -52.78553361,-27.97846806 -52.7855025,-27.97840806 -52.78395417,-27.97694333 -52.78181333,-27.97788722</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="b1844d9a_c723_4124_8274_e9596dda2ebb" id="b1844d9a_c723_4124_8274_e9596dda2ebb">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>b1844d9a_c723_4124_8274_e9596dda2ebb</name>
+  <Placemark>
+	<name>b1844d9a-c723-4124-8274-e9596dda2ebb</name>
+	<description>GAW</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#b1844d9a_c723_4124_8274_e9596dda2ebb">
+		<SimpleData name="parcela_co">1220210232188-MT</SimpleData>
+		<SimpleData name="rt">NAO_TITULADA</SimpleData>
+		<SimpleData name="art">9999110613369</SimpleData>
+		<SimpleData name="situacao_i">2021/12/27 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2021/12/27 00:00:00</SimpleData>
+		<SimpleData name="registro_m">5106216</SimpleData>
+		<SimpleData name="municipio_">4.11825880376648e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-55.97748806,-10.54803278 -55.97807806,-10.55758917 -55.98218167,-10.55770278 -55.98155028,-10.54719444 -55.97748806,-10.54803278</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

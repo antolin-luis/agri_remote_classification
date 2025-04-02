@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="1f2ee466_512f_46d8_ab80_da8a4d856c47" id="1f2ee466_512f_46d8_ab80_da8a4d856c47">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>1f2ee466_512f_46d8_ab80_da8a4d856c47</name>
+  <Placemark>
+	<name>1f2ee466-512f-46d8-ab80-da8a4d856c47</name>
+	<description>XFAB</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#1f2ee466_512f_46d8_ab80_da8a4d856c47">
+		<SimpleData name="parcela_co">2504232669-SC</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">8040100050618</SimpleData>
+		<SimpleData name="situacao_i">2025/01/24 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2025/01/24 00:00:00</SimpleData>
+		<SimpleData name="status">9598</SimpleData>
+		<SimpleData name="registro_m">4205100</SimpleData>
+		<SimpleData name="municipio_">1.74014386822472e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-49.80346972,-26.97716556 -49.80342528,-26.98269306 -49.803425,-26.98271806 -49.80346,-26.98267833 -49.8037775,-26.9823125 -49.80423722,-26.98185889 -49.80428639,-26.98176 -49.80436361,-26.98154583 -49.8044325,-26.98130722 -49.80452361,-26.98104972 -49.80456778,-26.98089611 -49.80461556,-26.98077083 -49.80466333,-26.98068722 -49.80470139,-26.98064028 -49.80474333,-26.98060278 -49.8048175,-26.98054833 -49.80502861,-26.98040111 -49.80508222,-26.98036667 -49.80514944,-26.9803275 -49.805285,-26.98025417 -49.80534278,-26.98023028 -49.80539389,-26.98021389 -49.8054525,-26.98020056 -49.8054525,-26.98016 -49.80547,-26.97526056 -49.80547556,-26.97365056 -49.80512444,-26.97294778 -49.80453528,-26.97247472 -49.80351028,-26.97210139 -49.80346972,-26.97716556</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

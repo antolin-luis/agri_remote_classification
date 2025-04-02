@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="fb1b1273_3d3b_4af1_81cb_24bff9ed91ff" id="fb1b1273_3d3b_4af1_81cb_24bff9ed91ff">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>fb1b1273_3d3b_4af1_81cb_24bff9ed91ff</name>
+  <Placemark>
+	<name>fb1b1273-3d3b-4af1-81cb-24bff9ed91ff</name>
+	<description>BC3</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#fb1b1273_3d3b_4af1_81cb_24bff9ed91ff">
+		<SimpleData name="parcela_co">92221220151465580-SP</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">6140170021272</SimpleData>
+		<SimpleData name="situacao_i">2015/11/06 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2015/11/06 00:00:00</SimpleData>
+		<SimpleData name="status">11.802</SimpleData>
+		<SimpleData name="registro_m">3501004</SimpleData>
+		<SimpleData name="municipio_">5.81400496159566e-06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-47.2685825,-21.06786139 -47.26975806,-21.06941278 -47.27173222,-21.07192444 -47.27173833,-21.07092389 -47.2717525,-21.0693025 -47.27164861,-21.06906944 -47.27154472,-21.0688925 -47.27135583,-21.06868528 -47.27128333,-21.0686075 -47.27104556,-21.06851194 -47.27056111,-21.06826694 -47.26861,-21.06724472 -47.2685825,-21.06786139</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

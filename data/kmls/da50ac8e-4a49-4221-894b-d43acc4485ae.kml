@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="da50ac8e_4a49_4221_894b_d43acc4485ae" id="da50ac8e_4a49_4221_894b_d43acc4485ae">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>da50ac8e_4a49_4221_894b_d43acc4485ae</name>
+  <Placemark>
+	<name>da50ac8e-4a49-4221-894b-d43acc4485ae</name>
+	<description>EUU</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#da50ac8e_4a49_4221_894b_d43acc4485ae">
+		<SimpleData name="parcela_co">9923956-RS</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">8511670434005</SimpleData>
+		<SimpleData name="situacao_i">2018/11/27 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2018/11/27 00:00:00</SimpleData>
+		<SimpleData name="status">43996,22588</SimpleData>
+		<SimpleData name="nome_area">2019/04/23 00:00:00</SimpleData>
+		<SimpleData name="registro_m">4323002</SimpleData>
+		<SimpleData name="municipio_">2.48098871593129e-06</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-51.001179453826,-30.2059231133269 -51.00112615584,-30.2060861833964 -51.00071669465,-30.2064723372385 -51.0011597256901,-30.2069932182031 -51.0013308517215,-30.2072632244152 -51.0014471198239,-30.2075569649859 -51.0016998032749,-30.2074721332929 -51.0035398184128,-30.205989038684 -51.0016662165361,-30.2058661645362 -51.001179453826,-30.2059231133269</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

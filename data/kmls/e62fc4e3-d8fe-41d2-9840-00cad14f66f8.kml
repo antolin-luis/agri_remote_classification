@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="e62fc4e3_d8fe_41d2_9840_00cad14f66f8" id="e62fc4e3_d8fe_41d2_9840_00cad14f66f8">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>e62fc4e3_d8fe_41d2_9840_00cad14f66f8</name>
+  <Placemark>
+	<name>e62fc4e3-d8fe-41d2-9840-00cad14f66f8</name>
+	<description>AQX</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#e62fc4e3_d8fe_41d2_9840_00cad14f66f8">
+		<SimpleData name="parcela_co">2620240237532-SP</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">6271000033010</SimpleData>
+		<SimpleData name="situacao_i">2024/05/31 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2024/05/31 00:00:00</SimpleData>
+		<SimpleData name="status">8818</SimpleData>
+		<SimpleData name="nome_area">2024/06/27 00:00:00</SimpleData>
+		<SimpleData name="registro_m">3528809</SimpleData>
+		<SimpleData name="municipio_">2.06354411688407e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-50.8847288565502,-22.7064337387957 -50.8953666481542,-22.6993611911597 -50.8953387803132,-22.6991334314002 -50.8953293006598,-22.6989236608765 -50.8952498471542,-22.6967527917335 -50.8952052392995,-22.6960056688505 -50.8951679529458,-22.6956175531771 -50.8847288565502,-22.7064337387957</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

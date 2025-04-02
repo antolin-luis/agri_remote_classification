@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="9ef0d792_d1a7_4d03_945d_409a13804c36" id="9ef0d792_d1a7_4d03_945d_409a13804c36">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>9ef0d792_d1a7_4d03_945d_409a13804c36</name>
+  <Placemark>
+	<name>9ef0d792-d1a7-4d03-945d-409a13804c36</name>
+	<description>ADWW</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#9ef0d792_d1a7_4d03_945d_409a13804c36">
+		<SimpleData name="parcela_co">CFT2201758768-GO</SimpleData>
+		<SimpleData name="rt">NAO_TITULADA</SimpleData>
+		<SimpleData name="art">9500413029290</SimpleData>
+		<SimpleData name="situacao_i">2022/04/14 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2022/04/14 00:00:00</SimpleData>
+		<SimpleData name="registro_m">5214606</SimpleData>
+		<SimpleData name="municipio_">3.96015175623424e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-48.74885639,-14.63685833 -48.74818722,-14.63718528 -48.74809472,-14.63740806 -48.7481775,-14.63796528 -48.75022028,-14.64019806 -48.76107,-14.64106917 -48.76119111,-14.63800389 -48.75378111,-14.63736722 -48.74952333,-14.63642417 -48.74885639,-14.63685833</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="0470e20e_a860_465c_9148_ca79483d38d2" id="0470e20e_a860_465c_9148_ca79483d38d2">
+	<SimpleField name="parcela_co" type="string"></SimpleField>
+	<SimpleField name="rt" type="string"></SimpleField>
+	<SimpleField name="art" type="string"></SimpleField>
+	<SimpleField name="situacao_i" type="string"></SimpleField>
+	<SimpleField name="codigo_imo" type="string"></SimpleField>
+	<SimpleField name="data_submi" type="string"></SimpleField>
+	<SimpleField name="data_aprov" type="string"></SimpleField>
+	<SimpleField name="status" type="string"></SimpleField>
+	<SimpleField name="nome_area" type="string"></SimpleField>
+	<SimpleField name="registro_m" type="string"></SimpleField>
+	<SimpleField name="registro_d" type="string"></SimpleField>
+	<SimpleField name="municipio_" type="float"></SimpleField>
+	<SimpleField name="uf_id" type="float"></SimpleField>
+	<SimpleField name="area_size" type="float"></SimpleField>
+</Schema>
+<Folder><name>0470e20e_a860_465c_9148_ca79483d38d2</name>
+  <Placemark>
+	<name>0470e20e-a860-465c-9148-ca79483d38d2</name>
+	<description>ICDO</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#0470e20e_a860_465c_9148_ca79483d38d2">
+		<SimpleData name="parcela_co">1320210088951-MS</SimpleData>
+		<SimpleData name="rt">REGISTRADA</SimpleData>
+		<SimpleData name="art">9999892556610</SimpleData>
+		<SimpleData name="situacao_i">2021/08/31 00:00:00</SimpleData>
+		<SimpleData name="codigo_imo">2021/08/31 00:00:00</SimpleData>
+		<SimpleData name="status">6.679 e 7.606</SimpleData>
+		<SimpleData name="registro_m">5006408</SimpleData>
+		<SimpleData name="municipio_">1.63548699873382e-05</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-54.55193972,-18.08540306 -54.55195083,-18.08557417 -54.5522125,-18.08570194 -54.55245833,-18.0860675 -54.55257222,-18.08619667 -54.55310056,-18.08638472 -54.55337861,-18.08667083 -54.55368528,-18.08698278 -54.55350056,-18.08706056 -54.55377028,-18.08722306 -54.55354667,-18.08761306 -54.55952194,-18.08835722 -54.55988194,-18.08591722 -54.55800194,-18.08572722 -54.55612361,-18.08553389 -54.55253944,-18.08517556 -54.55202472,-18.08512333 -54.55193972,-18.08540306</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
