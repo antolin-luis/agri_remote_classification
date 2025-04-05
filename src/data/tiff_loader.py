@@ -84,6 +84,8 @@ class TiffLoader:
         for tiff_file in self.train_val_dir.glob('*.tif*'):
             image = self._load_tiff(tiff_file)
             patches = self._extract_patches(image)
+            if patches.ndim == 1:
+                continue
             all_patches.append(patches)
         
         # Combine all patches

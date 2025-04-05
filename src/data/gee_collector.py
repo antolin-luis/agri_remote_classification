@@ -10,7 +10,7 @@ from .geometry_handler import GeometryHandler
 from .dataset_manager import DatasetManager
 
 class SentinelCollector:
-    def __init__(self, train_val_dir: str, prediction_dir: str = None):
+    def __init__(self, train_val_dir: str = None, prediction_dir: str = None):
         """
         Initialize the Earth Engine API and dataset manager
         
@@ -353,6 +353,65 @@ class SentinelCollector:
             print(f"Exportação iniciada para {kml_name}")
         
         return {"status": "All prediction KMLs processed independently"}
+
+    def collect_from_geodataframe(self, gdf: gpd.GeoDataFrame, 
+                              start_date: str, end_date: str,
+                              export_folder: str = 'sentinel_exports',
+                              patch_size: int = 64,
+                              scale: int = 10,
+                              max_cloud_cover: float = 20.0) -> None:
+        """
+        Collect Sentinel-2 data for areas defined in a GeoDataFrame
+        
+        Args:
+            gdf: GeoDataFrame containing geometries to collect data for
+            start_date: Start date in format 'YYYY-MM-DD'
+            end_date: End date in format 'YYYY-MM-DD'
+            export_folder: Folder name in Google Drive to export images to
+            patch_size: Size of image patches in pixels
+            scale: Scale in meters for the exported images
+            max_cloud_cover: Maximum cloud cover percentage allowed
+        """
+        print(f"Starting collection from GeoDataFrame with {len(gdf)} geometries...")
+        
+        # Create geometry handler if not exists
+        if not hasattr(self, 'geometry_handler'):
+            self.geometry_handler = GeometryHandler()
+        
+        # Convert GeoDataFrame geometries to Earth Engine format
+        for idx, row in gdf.iterrows():
+            try:
+                # Convert geometry to Earth Engine format using existing method
+                ee_geometry = self.geometry_handler._convert_to_ee_geometry(row.geometry)
+                
+                # Get name for the export (using index if no name column)
+                name = str(row.get('name', f'geometry_{idx}'))
+                
+                print(f"Processing geometry: {name}")
+                
+                # Get Sentinel collection
+                collection = self.get_sentinel_collection(
+                    regions=[ee_geometry],
+                    start_date=start_date,
+                    end_date=end_date,
+                    max_cloud_cover=max_cloud_cover
+                )
+                
+                # Export images
+                self.export_to_drive(
+                    collection=collection,
+                    regions=[ee_geometry],
+                    output_prefix=name,
+                    folder=export_folder,
+                    scale=scale,
+                    bands=['B8', 'B4', 'B11']
+                )
+                
+            except Exception as e:
+                print(f"Error processing geometry {idx}: {str(e)}")
+                continue
+        
+        print("Collection process initiated. Check your Google Drive for the exported files.")
 
 if __name__ == "__main__":
     # Example usage

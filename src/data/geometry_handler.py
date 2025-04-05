@@ -115,3 +115,22 @@ class GeometryHandler:
     def _convert_to_ee_geometry(self, geometry):
         geojson = gpd.GeoSeries([geometry]).__geo_interface__
         return ee.Geometry(geojson['features'][0]['geometry'])
+
+    @staticmethod
+    def geojson_to_ee_geometry(geojson: dict) -> ee.Geometry:
+        """
+        Convert a GeoJSON dictionary to Earth Engine geometry
+        
+        Args:
+            geojson: GeoJSON dictionary representation of a geometry
+            
+        Returns:
+            ee.Geometry: Earth Engine geometry object
+        """
+        # Convert GeoJSON to Earth Engine Geometry
+        try:
+            ee_geometry = ee.Geometry(geojson)
+            return ee_geometry
+        except Exception as e:
+            print(f"Error converting GeoJSON to Earth Engine geometry: {str(e)}")
+            raise

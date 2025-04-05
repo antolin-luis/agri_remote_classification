@@ -1,3 +1,9 @@
 /home/luisantolin/Downloads/Sigef Público
 /home/luisantolin/Downloads/Sigef Brasil
 /.rmt
+/data/tiffs/sentinel2_series
+/.gitignore
+/data/tiffs/sentinel_exports_gdf
+/data/completed
+/notebooks/logs
+/notebooks/mlruns
