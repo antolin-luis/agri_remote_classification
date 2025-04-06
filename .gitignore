@@ -8,3 +8,4 @@
 /notebooks/logs
 /notebooks/mlruns
 /home/luisantolin/code/agri_remote_classification/data/kmls
+/home/luisantolin/code/agri_remote_classification/notebooks/best_model.h5

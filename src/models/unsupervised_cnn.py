@@ -189,7 +189,7 @@ class UnsupervisedCNN:
             # Callbacks ajustados para classificação
             callbacks = [
                 tf.keras.callbacks.ModelCheckpoint(
-                    'best_model.h5',
+                    'best_model.keras',
                     save_best_only=True,
                     monitor='val_accuracy'
                 ),
