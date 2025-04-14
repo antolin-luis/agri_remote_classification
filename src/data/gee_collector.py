@@ -328,12 +328,12 @@ class SentinelCollector:
         # Load all prediction KML data
         prediction_data = self.dataset_manager.load_prediction_data()
         
-        print(f"\nIniciando processamento de {len(prediction_data)} KMLs para predição...")
+        print(f"\nStarting processing of {len(prediction_data)} KMLs for prediction...")
         
         # Process each KML file independently
         for geometries, kml_name, kml_path in prediction_data:
-            print(f"\nProcessando KML: {kml_name}")
-            print(f"Número de geometrias: {len(geometries)}")
+            print(f"\nProcessing KML: {kml_name}")
+            print(f"Number of geometries: {len(geometries)}")
             
             # Get image collection for this KML's geometries
             collection = self.get_sentinel_collection(
@@ -350,7 +350,7 @@ class SentinelCollector:
                 folder=drive_folder
             )
             
-            print(f"Exportação iniciada para {kml_name}")
+            print(f"Export started for {kml_name}")
         
         return {"status": "All prediction KMLs processed independently"}
 

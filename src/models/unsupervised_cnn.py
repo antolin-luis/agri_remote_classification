@@ -38,16 +38,16 @@ class UnsupervisedCNN:
         """Build the encoder model for classification"""
         inputs = tf.keras.layers.Input(shape=self.input_shape)
         
-        # Normalização dos dados de entrada
+        # Input data normalization
         x = tf.keras.layers.Normalization()(inputs)
         
-        # Primeira camada convolucional com batch normalization
+        # First convolutional layer with batch normalization
         x = tf.keras.layers.Conv2D(64, (3, 3), activation='relu', padding='same')(x)
         x = tf.keras.layers.BatchNormalization()(x)
         x = tf.keras.layers.MaxPooling2D((2, 2), padding='same')(x)
         x = tf.keras.layers.Dropout(0.25)(x)
         
-        # Segunda camada com skip connection
+        # Second layer with skip connection
         skip = x
         x = tf.keras.layers.Conv2D(64, (3, 3), activation='relu', padding='same')(x)
         x = tf.keras.layers.BatchNormalization()(x)
@@ -55,22 +55,22 @@ class UnsupervisedCNN:
         x = tf.keras.layers.MaxPooling2D((2, 2), padding='same')(x)
         x = tf.keras.layers.Dropout(0.25)(x)
         
-        # Terceira camada
+        # Third layer
         x = tf.keras.layers.Conv2D(128, (3, 3), activation='relu', padding='same')(x)
         x = tf.keras.layers.BatchNormalization()(x)
         x = tf.keras.layers.MaxPooling2D((2, 2), padding='same')(x)
         x = tf.keras.layers.Dropout(0.25)(x)
         
-        # Flatten e Dense com regularização
+        # Flatten and Dense with regularization
         x = tf.keras.layers.Flatten()(x)
         x = tf.keras.layers.Dense(256, activation='relu',
                                 kernel_regularizer=tf.keras.regularizers.l2(0.01))(x)
         x = tf.keras.layers.BatchNormalization()(x)
         x = tf.keras.layers.Dropout(0.5)(x)
         
-        # Latent space (reduzido para classificação)
+        # Latent space (reduced for classification)
         latent = tf.keras.layers.Dense(self.latent_dim, name='latent_space',
-                                     activation='softmax',  # Mudança para classificação
+                                     activation='softmax',  # Changed for classification
                                      kernel_regularizer=tf.keras.regularizers.l2(0.01))(x)
         
         return tf.keras.Model(inputs, latent, name='encoder')
@@ -79,40 +79,40 @@ class UnsupervisedCNN:
         """Build the decoder model for classification"""
         latent_inputs = tf.keras.layers.Input(shape=(self.latent_dim,))
         
-        # Dense layers com regularização
+        # Dense layers with regularization
         x = tf.keras.layers.Dense(256, activation='relu',
                                 kernel_regularizer=tf.keras.regularizers.l2(0.01))(latent_inputs)
         x = tf.keras.layers.BatchNormalization()(x)
         x = tf.keras.layers.Dropout(0.5)(x)
         
-        # Calcula as dimensões corretas para o reshape
-        # Se a entrada é 64x64, após 3 MaxPooling2D (2,2) fica 8x8
+        # Calculate correct dimensions for reshape
+        # If input is 64x64, after 3 MaxPooling2D (2,2) it becomes 8x8
         h = self.input_shape[0] // 8
         w = self.input_shape[1] // 8
         
-        # Reshape para começar deconvolução
+        # Reshape for deconvolution
         x = tf.keras.layers.Dense(h * w * 128, activation='relu',
                                 kernel_regularizer=tf.keras.regularizers.l2(0.01))(x)
         x = tf.keras.layers.Reshape((h, w, 128))(x)
         x = tf.keras.layers.BatchNormalization()(x)
         x = tf.keras.layers.Dropout(0.25)(x)
         
-        # Primeira upsampling: 8x8 -> 16x16
+        # First upsampling: 8x8 -> 16x16
         x = tf.keras.layers.Conv2DTranspose(128, (3, 3), strides=2, activation='relu', padding='same')(x)
         x = tf.keras.layers.BatchNormalization()(x)
         x = tf.keras.layers.Dropout(0.25)(x)
         
-        # Segunda upsampling: 16x16 -> 32x32
+        # Second upsampling: 16x16 -> 32x32
         x = tf.keras.layers.Conv2DTranspose(64, (3, 3), strides=2, activation='relu', padding='same')(x)
         x = tf.keras.layers.BatchNormalization()(x)
         x = tf.keras.layers.Dropout(0.25)(x)
         
-        # Terceira upsampling: 32x32 -> 64x64
+        # Third upsampling: 32x32 -> 64x64
         x = tf.keras.layers.Conv2DTranspose(32, (3, 3), strides=2, activation='relu', padding='same')(x)
         x = tf.keras.layers.BatchNormalization()(x)
         x = tf.keras.layers.Dropout(0.25)(x)
         
-        # Última camada com softmax para classificação
+        # Final layer with softmax for classification
         outputs = tf.keras.layers.Conv2D(self.n_clusters, (3, 3), 
                                        activation='softmax', padding='same')(x)
         
@@ -127,19 +127,19 @@ class UnsupervisedCNN:
 
     def classification_loss(self, y_true, y_pred):
         """Custom loss function for classification"""
-        # Reshape y_true para ter o formato esperado (batch_size, height, width)
+        # Reshape y_true to expected format (batch_size, height, width)
         y_true_reshaped = tf.cast(tf.argmax(y_true, axis=-1), tf.int32)
-        # Reshape y_pred para ter o formato esperado (batch_size, height, width, n_classes)
+        # Reshape y_pred to expected format (batch_size, height, width, n_classes)
         y_pred_reshaped = y_pred
         
-        # Aplicar categorical crossentropy por pixel
+        # Apply categorical cross-entropy per pixel
         ce_loss = tf.keras.losses.sparse_categorical_crossentropy(
             y_true_reshaped,
             y_pred_reshaped,
             from_logits=False
         )
         
-        # Média sobre todos os pixels
+        # Mean over all pixels
         ce_loss = tf.reduce_mean(ce_loss)
         
         # L2 regularization
@@ -158,7 +158,7 @@ class UnsupervisedCNN:
             # Normalize input data
             X_norm = (X - X.mean()) / (X.std() + 1e-8)
             
-            # Data Augmentation com menos transformações
+            # Data augmentation with fewer transformations
             if use_data_augmentation:
                 data_augmentation = tf.keras.Sequential([
                     tf.keras.layers.RandomFlip("horizontal"),
@@ -168,25 +168,25 @@ class UnsupervisedCNN:
             else:
                 X_augmented = X_norm
             
-            # Optimizer com clipping mais conservador
+            # Optimizer with more conservative clipping
             optimizer = tf.keras.optimizers.Adam(
                 learning_rate=learning_rate,
                 clipnorm=0.5
             )
             
-            # Compile com métricas de classificação
+            # Compile with classification metrics
             self.autoencoder.compile(
                 optimizer=optimizer,
                 loss=self.classification_loss,
                 metrics=['accuracy']
             )
             
-            # Preparar os labels (one-hot encoding dos canais de entrada)
-            # Assumindo que cada canal representa uma classe diferente
+            # Prepare labels (one-hot encoding of input channels)
+            # Assuming each channel represents a different class
             y_true = tf.argmax(X_augmented, axis=-1)
             y_true = tf.one_hot(y_true, depth=self.n_clusters)
             
-            # Callbacks ajustados para classificação
+            # Adjusted callbacks for classification
             callbacks = [
                 tf.keras.callbacks.ModelCheckpoint(
                     'best_model.keras',
@@ -212,7 +212,7 @@ class UnsupervisedCNN:
                 )
             ]
             
-            # Train com os labels preparados
+            # Train with prepared labels
             history = self.autoencoder.fit(
                 X_augmented, y_true,
                 epochs=epochs,

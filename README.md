@@ -1,37 +1,37 @@
-# Classificação Não Supervisionada de Imagens Sentinel-2
+# Unsupervised Classification of Sentinel-2 Images
 
-Este projeto utiliza Deep Learning (CNN) e técnicas de aprendizado não supervisionado para classificar imagens do Sentinel-2 em diferentes categorias usando as bandas B8, B4 e B11.
+This project uses Deep Learning (CNN) and unsupervised learning techniques to classify Sentinel-2 images into different categories using bands B8, B4, and B11.
 
-## Características do Projeto
+## Project Features
 
-- Uso da API do Google Earth Engine para coleta de imagens
-- Processamento de bandas específicas do Sentinel-2 (B8, B4, B11)
-- Implementação de CNN com TensorFlow
-- Classificação não supervisionada de imagens
-- Visualização e análise dos resultados
+- Use of Google Earth Engine API for image collection
+- Processing of specific Sentinel-2 bands (B8, B4, B11)
+- CNN implementation with TensorFlow
+- Unsupervised image classification
+- Results visualization and analysis
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
 .
-├── data/               # Diretório para armazenar dados
-├── notebooks/         # Jupyter notebooks para análise exploratória
-├── src/              # Código fonte do projeto
-│   ├── data/         # Scripts para processamento de dados
-│   ├── models/       # Implementação dos modelos
-│   └── visualization/ # Códigos para visualização
-└── requirements.txt   # Dependências do projeto
+├── data/               # Directory for data storage
+├── notebooks/         # Jupyter notebooks for exploratory analysis
+├── src/              # Project source code
+│   ├── data/         # Data processing scripts
+│   ├── models/       # Model implementations
+│   └── visualization/ # Visualization code
+└── requirements.txt   # Project dependencies
 ```
 
-## Configuração
+## Setup
 
-1. Instale as dependências:
+1. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Configure suas credenciais do Google Earth Engine
+2. Configure your Google Earth Engine credentials
 
-## Uso
+## Usage
 
-[Instruções de uso serão adicionadas conforme o desenvolvimento do projeto]
+[Usage instructions will be added as the project develops]
